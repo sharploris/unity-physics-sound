@@ -6,7 +6,7 @@ This is a small utility designed for the purpose of being able to match audio cl
 
 ## Demo
 
-A demo scene is included with a player that can move and jump. There is a grey surface with a concrete physics material, a brown surface with a mud physics material, and a yellow surface with no physics material set. This allows you to see that different sounds play for each, with the default sounds playing on a surface with no physics material. Everything necessary to understand how to use this utility is included in the demo folder of this repo.
+A demo scene is included with a player that can move and jump. There is a grey surface with a concrete physics material, a brown surface with a mud physics material, and a yellow surface with no physics material set. This allows you to see that different sounds play when walking and landing on each of them, with the default sounds playing on a surface with no physics material. Everything necessary to understand how to use this utility is included in the demo folder of this repo.
 
 ## Usage
 
