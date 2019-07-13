@@ -25,7 +25,6 @@ namespace PhysicsSound.Demo.Scripts
         private Vector3 _movement;
         private bool _isGrounded;
         private bool _shouldJump;
-        private AudioClip[] _currentFootstepSounds;
 
         private PhysicMaterial _groundedOn;
 
@@ -47,7 +46,7 @@ namespace PhysicsSound.Demo.Scripts
 
             if (groundedOn != _groundedOn)
             {
-                _currentFootstepSounds = _footstepSounds.GetClipsFromMaterial(_groundedOn);
+                _footstepSounds.UpdateActiveAudioClips(_groundedOn);
             }
 
             PlayFootsteps();
@@ -78,7 +77,7 @@ namespace PhysicsSound.Demo.Scripts
 
             if (_footstepTimer < _footstepSoundDelay) { return; }
 
-            PlayRandomSoundFromArray(_currentFootstepSounds);
+            PlayRandomSoundFromArray(_footstepSounds.ActiveAudioClips);
             _footstepTimer = 0;
         }
 
