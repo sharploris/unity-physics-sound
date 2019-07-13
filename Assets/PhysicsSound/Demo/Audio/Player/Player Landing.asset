@@ -10,7 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8d1bffc583284a928ba9e5d0a70f4987, type: 3}
-  m_Name: Player Footsteps Mud
+  m_Name: Player Landing
   m_EditorClassIdentifier: 
-  _defaultClips: []
-  _physicsSounds: []
+  _defaultClips:
+  - {fileID: 8300000, guid: f5cdb4bc7c2507143abeb8e33ad87430, type: 3}
+  _physicsSounds:
+  - {fileID: 11400000, guid: 7e3c56eaa567a94479839683ec4eeb95, type: 2}
+  - {fileID: 11400000, guid: c9e18ea759a5cf4449b35677446b3ef9, type: 2}

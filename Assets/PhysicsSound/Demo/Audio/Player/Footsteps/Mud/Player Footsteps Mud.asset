@@ -10,7 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e7f2768a68634c15924c91ee9e052deb, type: 3}
-  m_Name: Player Footsteps - Mud
+  m_Name: Player Footsteps Mud
   m_EditorClassIdentifier: 
-  _audioClips: []
-  _materialKey: {fileID: 0}
+  _audioClips:
+  - {fileID: 8300000, guid: 96d5b259ae936f446ac6890b792b8dd0, type: 3}
+  - {fileID: 8300000, guid: 39c30bb8ee12e4646b812de3005e11a4, type: 3}
+  - {fileID: 8300000, guid: 3d1dce9f1c23312439fae844908639b1, type: 3}
+  - {fileID: 8300000, guid: 1cb54539e9f46ff41a63bdce00b153f3, type: 3}
+  - {fileID: 8300000, guid: dea1da5156cebf74697aae5aac5345e6, type: 3}
+  _materialKey: {fileID: 13400000, guid: 7da9cd1f2ba6ad64e9a77276eb93143b, type: 2}

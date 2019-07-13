@@ -12,5 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d1bffc583284a928ba9e5d0a70f4987, type: 3}
   m_Name: Player Footsteps
   m_EditorClassIdentifier: 
-  _defaultClips: []
-  _physicsSounds: []
+  _defaultClips:
+  - {fileID: 8300000, guid: f5cdb4bc7c2507143abeb8e33ad87430, type: 3}
+  _physicsSounds:
+  - {fileID: 11400000, guid: 426eddb3dd13d694da26f860482f51e1, type: 2}
+  - {fileID: 11400000, guid: 1695c3f778aab2a46ad931db096ce720, type: 2}
