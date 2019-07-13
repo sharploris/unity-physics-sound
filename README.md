@@ -20,7 +20,7 @@ This is what you use to configure the audio clips for a specific physics materia
 
 #### 3D Physics Sound Dictionary
 
-This is what you use to configure all of your available 3D physics sounds for a particular interaction. Continuing on from the above example, you might create one called `Player Footsteps` and assign it your `Player Footsteps Wood` 3D physics sounds, as well as others for Ice, Sand, Concrete, etc. You can also assign a number of default audio clips to be used when interacting with material that have no physics material set.
+This is what you use to configure all of your available 3D physics sounds for a particular interaction. Continuing on from the above example, you might create one called `Player Footsteps` and assign it your `Player Footsteps Wood` 3D physics sounds, as well as others for Ice, Sand, Concrete, etc. You can also assign a number of default audio clips to be used when interacting with colliders that have no physics material set.
 
 #### 2D Physics Sounds
 
@@ -28,7 +28,7 @@ This is what you use to configure the audio clips for a specific physics materia
 
 #### 2D Physics Sound Dictionary
 
-This is what you use to configure all of your available 2D physics sounds for a particular interaction. Continuing on from the above example, you might create one called `Player Footsteps` and assign it your `Player Footsteps Wood` 2D physics sounds, as well as others for Ice, Sand, Concrete, etc. You can also assign a number of default audio clips to be used when interacting with material that have no physics material set.
+This is what you use to configure all of your available 2D physics sounds for a particular interaction. Continuing on from the above example, you might create one called `Player Footsteps` and assign it your `Player Footsteps Wood` 2D physics sounds, as well as others for Ice, Sand, Concrete, etc. You can also assign a number of default audio clips to be used when interacting with colliders that have no physics material set.
 
 ### Dictionary Methods
 
