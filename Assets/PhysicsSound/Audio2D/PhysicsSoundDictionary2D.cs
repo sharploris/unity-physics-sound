@@ -2,7 +2,7 @@
 
 namespace PhysicsSound.Audio2D
 {
-    [CreateAssetMenu(fileName = "Physics Sounds 2D", menuName = "Physics Sounds/2D Physics Sound Dictionary", order = 2)]
+    [CreateAssetMenu(fileName = "2D Physics Sound Dictionary", menuName = "Physics Sounds/2D Physics Sound Dictionary", order = 4)]
     public class PhysicsSoundDictionary2D : ScriptableObject
     {
         [SerializeField] private AudioClip[] _defaultClips = new AudioClip[0];

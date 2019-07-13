@@ -4,7 +4,7 @@ using UnityEngine;
 namespace PhysicsSound.Shared
 {
     [Serializable]
-    public class AudioClipArray
+    public class AudioClipArray : ScriptableObject
     {
         [SerializeField]
         private AudioClip[] _audioClips = new AudioClip[0];
