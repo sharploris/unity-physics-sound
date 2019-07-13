@@ -8,6 +8,11 @@ namespace PhysicsSound.Audio3D
         [SerializeField] private AudioClip[] _defaultClips = new AudioClip[0];
         [SerializeField] private PhysicsSound3D[] _physicsSounds = new PhysicsSound3D[0];
 
+        /// <summary>
+        /// This method allows you to get an array of audio clips that correspond to a physics material.
+        /// </summary>
+        /// <param name="material">The physics material that has been interacted with.</param>
+        /// <returns>A corresponding array of possible audio clips.</returns>
         public AudioClip[] GetClipsFromMaterial(PhysicMaterial material)
         {
             if (material == null)
