@@ -19,7 +19,7 @@ namespace PhysicsSound.Shared.Editor
         {
             serializedObject.Update();
 
-            Name = serializedObject.FindProperty("m_Name").stringValue;
+            Name = BuildName(serializedObject.FindProperty("m_Name").stringValue);
 
             EditorGUILayout.LabelField(Name, EditorStyles.boldLabel);
             EditorGUILayout.PropertyField(Material);
@@ -42,5 +42,7 @@ namespace PhysicsSound.Shared.Editor
             }
             EditorGUI.indentLevel -= 1;
         }
+
+        protected abstract string BuildName(string objectName);
     }
 }

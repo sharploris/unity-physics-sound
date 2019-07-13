@@ -1,10 +1,10 @@
 ﻿using UnityEditor;
 using PhysicsSound.Shared.Editor;
 
-namespace PhysicsSound.Audio3D.Editor
+namespace PhysicsSound.Audio2D.Editor
 {
-    [CustomEditor(typeof(PhysicsSound3D))]
-    public class PhysicsSound3DEditor : PhysicsSoundEditor {
+    [CustomEditor(typeof(PhysicsSoundDictionary2D))]
+    public class PhysicsSoundDictionary2DEditor : PhysicsSoundDictionaryEditor {
         protected override string BuildName(string objectName)
         {
             if (string.IsNullOrEmpty(objectName))
@@ -12,7 +12,7 @@ namespace PhysicsSound.Audio3D.Editor
                 objectName = "Untitled";
             }
 
-            return $"3D Physics Sounds - {objectName}";
+            return $"2D Physics Sound Dictionary - {objectName}";
         }
     }
 }

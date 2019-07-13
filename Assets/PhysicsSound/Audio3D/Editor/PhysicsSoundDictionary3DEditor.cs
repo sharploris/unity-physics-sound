@@ -3,8 +3,8 @@ using PhysicsSound.Shared.Editor;
 
 namespace PhysicsSound.Audio3D.Editor
 {
-    [CustomEditor(typeof(PhysicsSound3D))]
-    public class PhysicsSound3DEditor : PhysicsSoundEditor {
+    [CustomEditor(typeof(PhysicsSoundDictionary3D))]
+    public class PhysicsSoundDictionary3DEditor : PhysicsSoundDictionaryEditor {
         protected override string BuildName(string objectName)
         {
             if (string.IsNullOrEmpty(objectName))
@@ -12,7 +12,7 @@ namespace PhysicsSound.Audio3D.Editor
                 objectName = "Untitled";
             }
 
-            return $"3D Physics Sounds - {objectName}";
+            return $"3D Physics Sound Dictionary - {objectName}";
         }
     }
 }
