@@ -17,6 +17,10 @@
 
 This is a small utility designed for the purpose of being able to match audio clips to physics materials in Unity. A good example of when this might be needed is when you want different sounds to play when your player is walking on different surfaces. This utility supports both the 2D and 3D physics engine included with Unity, and will allow you to build simple dictionaries of physics materials and an arbitrary number of corresponding audio clips.
 
+## Installation
+
+You can find a .unitypackage file for this utility [here.](UnityPhysicsSound.unitypackage) Downloading it and opening it in Unity will allow you to install all of the files you need. You only need to import the appropriate folder for the physics system your game uses (`Audio2D` or `Audio3D`) but you must also import the `Shared` folder for it to function correctly. The demo folder is completely optional, but useful for seeing how it works.
+
 ## Demo
 
 A demo scene is included with a player that can move and jump. There is a grey surface with a concrete physics material, a brown surface with a mud physics material, and a yellow surface with no physics material set. This allows you to see that different sounds play when walking and landing on each of them, with the default sounds playing on a surface with no physics material. Everything necessary to understand how to use this utility is included in the demo folder of this repo.
