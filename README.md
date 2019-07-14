@@ -2,6 +2,7 @@
 
 ## Contents
 - [Overview](#overview)
+- [Installation](#installation)
 - [Demo](#demo)
 - [Usage](#usage)
   * [Scriptable Objects](#scriptable-objects)
