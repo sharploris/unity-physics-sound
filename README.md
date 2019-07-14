@@ -19,7 +19,7 @@ This is a small utility designed for the purpose of being able to match audio cl
 
 ## Installation
 
-You can find a .unitypackage file for this utility [here.](UnityPhysicsSound.unitypackage) Downloading it and opening it in Unity will allow you to install all of the files you need. You only need to import the appropriate folder for the physics system your game uses (`Audio2D` or `Audio3D`) but you must also import the `Shared` folder for it to function correctly. The demo folder is completely optional, but useful for seeing how it works.
+You can find a .unitypackage file for this utility [here](UnityPhysicsSound.unitypackage). Downloading it and opening it in Unity will allow you to install all of the files you need. You only need to import the appropriate folder for the physics system your game uses (`Audio2D` or `Audio3D`) but you must also import the `Shared` folder for it to function correctly. The demo folder is completely optional, but useful for seeing how it works.
 
 ## Demo
 
